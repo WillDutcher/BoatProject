@@ -7,7 +7,3 @@ mongoose.connect(`mongodb://localhost/${db_name}`, {
 })
     .then(() => console.log(`You are connected to the ${db_name} database`))
     .catch((err) => console.log(`Something went wrong connecting to the ${db_name} database: ${err}`));
-
-const TomanSkiffSchema = new mongoose.Schema({
-
-})
